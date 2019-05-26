@@ -275,7 +275,7 @@ class App extends Component {
                     <source src="assets/sounds/soundWrong.wav" type="audio/mpeg" ></source>
                 </audio>
                 <audio ref={(soundFinished) => { this.soundFinished = soundFinished; }}>
-                    <source src="assets/sounds/soundFinish.wav" type="audio/mpeg" ></source>
+                    <source src="assets/sounds/soundFinish.wav" type=   "audio/mpeg" ></source>
                 </audio>
                 <audio ref={(soundClick) => { this.soundClick = soundClick; }}>
                     <source src="assets/sounds/soundClick.wav" type="audio/mpeg" ></source>
