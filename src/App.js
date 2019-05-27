@@ -1,8 +1,8 @@
-import React, {useState, useContext, useReducer} from 'react';
+import React, {useState, useContext} from 'react';
 
 //CONTEXT + REDUCER
 import InputData from './context/';
-import InputDataReducer from './reducer/';
+// import InputDataReducer from './reducer/';
 
 //COMPONENTS
 import TextAreaInput from './components/TextAreaInput'
@@ -10,7 +10,7 @@ import TextAreaInput from './components/TextAreaInput'
 export default function App(){
 
     const inputData = useContext(InputData);
-    const [state, dispatch] = useReducer(InputDataReducer, inputData);
+    // const [state, dispatch] = useReducer(InputDataReducer, inputData);
     
     // //Message
     // const [message, SetMessage] = useState("");
