@@ -1,7 +1,7 @@
 import React, {useState, useContext} from 'react';
 
 //CONTEXT + REDUCER
-import InputData from './context/';
+import InputData from './context/index';
 // import InputDataReducer from './reducer/';
 
 //COMPONENTS
@@ -14,8 +14,6 @@ export default function App(){
     
     // //Message
     // const [message, SetMessage] = useState("");
-
-    // const hiddenChar = "#";
 
     return (
         <InputData.Provider>
