@@ -1,4 +1,4 @@
-## Demo: nhatlinh.de/projects/luckentext
+## Demo: http://nhatlinh.de/projects/luckentext/
 
 complete old version in Legacy folder
 new version currently updating
